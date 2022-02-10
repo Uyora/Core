@@ -1,0 +1,17 @@
+package net.uyora.core.quest.tracker;
+
+import net.uyora.core.quest.QuestProgressionTracker;
+import net.uyora.core.quest.QuestStage;
+import org.bukkit.event.player.PlayerInteractEntityEvent;
+
+public class QuestTrackerDeliver extends QuestProgressionTracker<PlayerInteractEntityEvent> {
+
+	public QuestTrackerDeliver(QuestStage stage) {
+		super(stage);
+	}
+
+	@Override
+	public void updateProgress(PlayerInteractEntityEvent event) {
+
+	}
+}
